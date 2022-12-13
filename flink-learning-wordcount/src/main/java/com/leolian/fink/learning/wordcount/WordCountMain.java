@@ -7,7 +7,7 @@ import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.util.Collector;
 
-public class Main {
+public class WordCountMain {
 
     private static final String[] WORDS = new String[]{
             "To be, or not to be,--that is the question:--",

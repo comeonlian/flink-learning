@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>flink-learning-wordcount</artifactId>
+    <artifactId>flink-learning-socket-wordcount</artifactId>
 
     <build>
         <plugins>
@@ -58,7 +58,7 @@
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <!--注意：这里一定要换成你自己的 Job main 方法的启动类-->
-                                    <mainClass>com.leolian.fink.learning.wordcount.WordCountMain</mainClass>
+                                    <mainClass>com.leolian.fink.learning.socket.wordcount.SocketWordCountMain</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
